@@ -6,7 +6,7 @@ export function loadHomePage(){
     // add header 
     const header = document.createElement("H1")
     //add text to header
-    header.textContent = "Farmers Table"
+    header.textContent = "The Quacking Duck"
     //append header to page
     content.appendChild(header)
 
@@ -14,6 +14,7 @@ export function loadHomePage(){
     const firstContainer = document.createElement("div")
     const infoPara = document.createElement("p")
     infoPara.style.whiteSpace = "pre-wrap"
+    infoPara.classList.add()
     let info = `Where food and passion comes together.`
     // let info = `Welcome to farmers table where we pride ourselves in serving fresh local meats and produce!\n
     // We take simple ingredients and elevate them with modern techniques to produce elevated dishes!\n
