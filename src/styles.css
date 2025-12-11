@@ -1,8 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Indie Flower", cursive;
+  background-image: url('./images/steak.jpg');
+  background-size: cover ;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0; 
+}
 
+.main-containter{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav { 
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center; 
+  height: 50px;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+}
+
+h1{ 
+  font-size: 40px;
+
+}
+
+#content { 
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center; 
+}
+
+button {
+  all: unset;
+  cursor: pointer; 
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 30px; 
+}
+
+button:focus{ 
+  outline: revert;
+}
+
+button:hover{
+  background-color: #36454F;
+}
 
