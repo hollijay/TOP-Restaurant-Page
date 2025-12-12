@@ -14,7 +14,7 @@ export function loadHomePage(){
     const firstContainer = document.createElement("div")
     const infoPara = document.createElement("p")
     infoPara.style.whiteSpace = "pre-wrap"
-    infoPara.classList.add()
+    infoPara.classList.add("front-page-text")
     let info = `Where food and passion comes together.`
     // let info = `Welcome to farmers table where we pride ourselves in serving fresh local meats and produce!\n
     // We take simple ingredients and elevate them with modern techniques to produce elevated dishes!\n
@@ -24,14 +24,6 @@ export function loadHomePage(){
     firstContainer.appendChild(infoPara)
     content.appendChild(firstContainer)
 
-    //setup container and hours info to add to page
-    const secondContainer = document.createElement("div")
-    const hours = document.createElement("ul")
-    const weekHours = '<li>Monday-Thursday: 8am-6pm</li>'
-    const weekendHours ='<li>Friday-Sunday: 9am-11pm</li>'
-    hours.insertAdjacentHTML('beforeend', weekHours)
-    hours.insertAdjacentHTML('beforeend', weekendHours)
-    secondContainer.appendChild(hours)
-    content.appendChild(secondContainer)
-
 }
+
+
